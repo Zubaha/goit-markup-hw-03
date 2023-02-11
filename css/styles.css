@@ -120,6 +120,9 @@ p, h1, h2, h3, h4, h5, h6, ul {
  /* Hero */
 
  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+
     background-color: var(--primery-dark);
     text-align: center;
  }
@@ -262,9 +265,14 @@ p, h1, h2, h3, h4, h5, h6, ul {
 /* Footer */
 
 .footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
     background-color: var(--primery-dark);
 }
 .footer-section-subtitle {
+    width: 264px;
+
     color: var(--secondary-buttons);
 }
 
@@ -280,11 +288,10 @@ p, h1, h2, h3, h4, h5, h6, ul {
     text-transform: uppercase;
 }
 
-.footer-container {
-    width: 264px;
-    padding-top: 100px;
-    padding-bottom: 100px; 
-}
+
+    
+    
+
 
 /* Portfolio */
 
@@ -298,6 +305,8 @@ p, h1, h2, h3, h4, h5, h6, ul {
     justify-content: center;
 
 }
+
+
 
 .portfolio-button {
     border-radius: 4px;
@@ -330,14 +339,19 @@ p, h1, h2, h3, h4, h5, h6, ul {
 }
 
 .portfolio-image-item-text-container {
-    margin-left: 16px;
+    padding-left: 16px;
     padding-top: 32px;
     padding-bottom: 32px;
+    border: 1px solid var(--secondary-buttons);
+}
+
+.portfolio-image-subtitle {
+    color: var(--primery-text);
 }
 
 .portfolio-image-item {
     width: calc((100% - 48px) / 3);
-    border: 1px solid var(--secondary-buttons);
+    
 }
 
 .portfolio-heading-image {
