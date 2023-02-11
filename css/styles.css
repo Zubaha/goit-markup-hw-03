@@ -152,7 +152,7 @@ p, h1, h2, h3, h4, h5, h6, ul {
  /* Advantages */
 
  .fisher-section {
-    margin-top: 120px;
+    padding-top: 120px;
     padding-bottom: 120px;
  }
 
@@ -215,11 +215,11 @@ p, h1, h2, h3, h4, h5, h6, ul {
     background-color: var(--background-ligh);
     text-align: center;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 
 .workers-section-title {
-    margin-top: 120px;
     display: inline-block;
     margin-bottom: 72px;
 
@@ -288,10 +288,14 @@ p, h1, h2, h3, h4, h5, h6, ul {
 
 /* Portfolio */
 
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .portfolio-list-button {
     display: flex;
     justify-content: center;
-    margin-top: 96px;
 
 }
 
@@ -322,7 +326,6 @@ p, h1, h2, h3, h4, h5, h6, ul {
     display: flex;
     flex-wrap: wrap;
     margin-top: 72px;
-    padding-bottom: 120px;
     gap: 48px 24px;
 }
 
