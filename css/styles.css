@@ -232,7 +232,7 @@ p, h1, h2, h3, h4, h5, h6, ul {
 
 
 .workers-section-heading {
-    margin-top: 32px;
+   
     margin-bottom: 8px;
 
     color: var(--primery-dark);
@@ -247,10 +247,13 @@ p, h1, h2, h3, h4, h5, h6, ul {
 }
 
 .workers-section-item {
-    height: 380px;
     border-radius: 0px 0px 4px 4px;
 
     background-color: #fff;
+}
+.workers-section-item-text-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .workers-section-image {
@@ -325,16 +328,16 @@ p, h1, h2, h3, h4, h5, h6, ul {
 
 .portfolio-image-item-text-container {
     margin-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .portfolio-image-item {
-    height: 420px;
     width: calc((100% - 48px) / 3);
     border: 1px solid var(--secondary-buttons);
 }
 
 .portfolio-heading-image {
-    margin-top: 32px;
     margin-bottom: 8px;
 
     font-size: 20px;
